@@ -58,8 +58,8 @@
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-      @include borda-arredondada;
-    @include sombra-padrao;
+    @include borda-arredondada;
+    @extend %sombra-padrao;
     margin-left: 2em;
 }
   
